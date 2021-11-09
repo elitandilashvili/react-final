@@ -1,0 +1,6 @@
+{
+  "explorer.compactFolders": false,
+  "editor.formatOnSaveMode": "file",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "git.ignoreLimitWarning": true
+}
