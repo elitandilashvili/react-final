@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { MIN_EMAIL_VALUE } from '../../contacts/Validation';
+import { TEST_IDS } from '../../contacts/Testids';
 
 export function EmailInput({ name }) {
   const [value, setValue] = useState('');
@@ -36,19 +37,26 @@ export function EmailInput({ name }) {
         value={value}
         onChange={({ target }) => setValue(target.value)}
         required
+        data-testid={TEST_IDS.emailInput.inputElement}
       />
       <span className="icon is-small is-left">
         <i className="fas fa-envelope"></i>
       </span>
 
       {!hasError && value && (
-        <span className="icon is-small is-right">
+        <span
+          className="icon is-small is-right"
+          data-testid={TEST_IDS.emailInput.success}
+        >
           <i className="fas fa-check"></i>
         </span>
       )}
 
       {hasError && value && (
-        <span className="icon is-small is-right">
+        <span
+          className="icon is-small is-right"
+          data-testid={TEST_IDS.emailInput.hasError}
+        >
           <i className="fas fa-exclamation-triangle" />
         </span>
       )}

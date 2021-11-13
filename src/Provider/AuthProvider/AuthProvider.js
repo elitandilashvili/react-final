@@ -1,4 +1,3 @@
-import react from 'react';
 import { useNavigate } from 'react-router-dom';
 import React, { useState, useContext } from 'react';
 import { itemExists, saveItem, removeItem } from '../../helper/LocalStorage';

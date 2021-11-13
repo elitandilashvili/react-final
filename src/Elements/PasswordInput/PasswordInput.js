@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { MIN_PASSWORD_VALUE } from '../../contacts/Validation';
+import { TEST_IDS } from '../../contacts/Testids';
 
 export function PasswordInput({ name }) {
   const [value, setValue] = useState('');
@@ -36,19 +37,26 @@ export function PasswordInput({ name }) {
         autoComplete="new-password"
         onChange={({ target }) => setValue(target.value)}
         required
+        data-testid={TEST_IDS.passwordInput.inputElement}
       />
       <span className="icon is-small is-left">
         <i className="fas fa-lock"></i>
       </span>
 
       {!hasError && value && (
-        <span className="icon is-small is-right">
+        <span
+          className="icon is-small is-right"
+          data-testid={TEST_IDS.passwordInput.success}
+        >
           <i className="fas fa-check"></i>
         </span>
       )}
 
       {hasError && value && (
-        <span className="icon is-small is-right">
+        <span
+          className="icon is-small is-right"
+          data-testid={TEST_IDS.passwordInput.hasError}
+        >
           <i className="fas fa-exclamation-triangle" />
         </span>
       )}

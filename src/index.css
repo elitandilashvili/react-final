@@ -5,9 +5,78 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #d1d1a9;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.countries-container {
+  width: 100%;
+  text-align: center;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.filter-container {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+#navbar {
+  background-color: #b1b17a;
+  margin-bottom: 0px;
+}
+
+.country-image {
+  height: 160px;
+}
+
+.country-container {
+  background-color: #f5f5dc;
+  padding: 20px;
+  border-radius: 7px;
+  box-shadow: 5px 10px#888888;
+}
+
+#login-container {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.login-button {
+  border-radius: 7px;
+}
+
+.Login-div {
+  background: color #959577 !important;
+  height: 1200px;
+  width: 100%;
+}
+
+.nav-text {
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.nav-title {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+}
+
+.log-text {
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.button-box {
+  border-radius: 30px;
+}
+
+.title-text {
+  text-align: center;
+
+  margin-top: 150px;
 }

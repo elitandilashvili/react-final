@@ -1,0 +1,350 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmailInput snapshots snap 1 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <p
+        class="control has-icons-left has-icons-right"
+      >
+        <input
+          autocomplete="email"
+          class="input "
+          data-testid="emailInput"
+          name="testName"
+          placeholder="Email"
+          required=""
+          type="email"
+          value=""
+        />
+        <span
+          class="icon is-small is-left"
+        >
+          <i
+            class="fas fa-envelope"
+          />
+        </span>
+        
+      </p>
+    </div>
+  </body>,
+  "container": <div>
+    <p
+      class="control has-icons-left has-icons-right"
+    >
+      <input
+        autocomplete="email"
+        class="input "
+        data-testid="emailInput"
+        name="testName"
+        placeholder="Email"
+        required=""
+        type="email"
+        value=""
+      />
+      <span
+        class="icon is-small is-left"
+      >
+        <i
+          class="fas fa-envelope"
+        />
+      </span>
+      
+    </p>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`EmailInput snapshots snap 2 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <p
+        class="control has-icons-left has-icons-right"
+      >
+        <input
+          autocomplete="email"
+          class="input is-danger"
+          data-testid="emailInput"
+          name="testName"
+          placeholder="Email"
+          required=""
+          type="email"
+          value="wrong"
+        />
+        <span
+          class="icon is-small is-left"
+        >
+          <i
+            class="fas fa-envelope"
+          />
+        </span>
+        <span
+          class="icon is-small is-right"
+          data-testid="email.hasError"
+        >
+          <i
+            class="fas fa-exclamation-triangle"
+          />
+        </span>
+      </p>
+    </div>
+  </body>,
+  "container": <div>
+    <p
+      class="control has-icons-left has-icons-right"
+    >
+      <input
+        autocomplete="email"
+        class="input is-danger"
+        data-testid="emailInput"
+        name="testName"
+        placeholder="Email"
+        required=""
+        type="email"
+        value="wrong"
+      />
+      <span
+        class="icon is-small is-left"
+      >
+        <i
+          class="fas fa-envelope"
+        />
+      </span>
+      <span
+        class="icon is-small is-right"
+        data-testid="email.hasError"
+      >
+        <i
+          class="fas fa-exclamation-triangle"
+        />
+      </span>
+    </p>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`EmailInput snapshots snap 3 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <p
+        class="control has-icons-left has-icons-right"
+      >
+        <input
+          autocomplete="email"
+          class="input is-success"
+          data-testid="emailInput"
+          name="testName"
+          placeholder="Email"
+          required=""
+          type="email"
+          value="success@email.com"
+        />
+        <span
+          class="icon is-small is-left"
+        >
+          <i
+            class="fas fa-envelope"
+          />
+        </span>
+        <span
+          class="icon is-small is-right"
+          data-testid="email.success"
+        >
+          <i
+            class="fas fa-check"
+          />
+        </span>
+      </p>
+    </div>
+  </body>,
+  "container": <div>
+    <p
+      class="control has-icons-left has-icons-right"
+    >
+      <input
+        autocomplete="email"
+        class="input is-success"
+        data-testid="emailInput"
+        name="testName"
+        placeholder="Email"
+        required=""
+        type="email"
+        value="success@email.com"
+      />
+      <span
+        class="icon is-small is-left"
+      >
+        <i
+          class="fas fa-envelope"
+        />
+      </span>
+      <span
+        class="icon is-small is-right"
+        data-testid="email.success"
+      >
+        <i
+          class="fas fa-check"
+        />
+      </span>
+    </p>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
