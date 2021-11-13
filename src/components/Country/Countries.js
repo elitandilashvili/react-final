@@ -32,8 +32,7 @@ export const Countries = (props) => {
             }
           })
           .map((country) => {
-            const { name, region, population, capital, flags, latlng } =
-              country;
+            const { name, region, population, capital, flags } = country;
             return (
               <article className="column is-one-third">
                 <div className="country-container">
