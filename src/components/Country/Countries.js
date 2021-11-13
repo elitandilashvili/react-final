@@ -11,26 +11,21 @@ export const Countries = (props) => {
 
       <div className="columns is-mobile is-multiline">
         {props.countries
-          .filter((value) => {
-            if (props.searchTest === '') {
-              return value;
-            } else if (
+
+          .filter(
+            (value) =>
+              props.searchTest === '' ||
               value.name['common']
                 .toLowerCase()
                 .includes(props.searchTest.toLowerCase())
-            ) {
-              return value;
-            }
-          })
-          .filter((value) => {
-            if (regions === 'All') {
-              return value;
-            } else if (
+          )
+
+          .filter(
+            (value) =>
+              regions === 'All' ||
               value.region.toLowerCase().includes(regions.toLowerCase())
-            ) {
-              return value;
-            }
-          })
+          )
+
           .map((country) => {
             const { name, region, population, capital, flags } = country;
             return (
